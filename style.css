@@ -1,0 +1,86 @@
+h1 {
+    font-family: 'Anek Gujarati';
+}
+p {
+      font-family: 'Anek Gujarati';
+}
+body {
+    margin: 0;
+    background-image: url("bgbrgy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headcon {
+    display: flex;
+    width: 100vw;
+    height: 5em;
+    background-color: rgb(169, 20, 20);
+}
+.welcomecon {
+    margin-left: auto;
+    padding-right: 5em;
+}
+.welcommsg {
+    font-weight: bolder;
+    font-size: 200%;
+    color: white;
+    margin-top: .6em;
+}
+.logocon {
+    display: flex;
+    padding-left: 3em;
+    padding-top: .5em;
+    height: 80%;
+    column-gap: .5em;
+}
+#sklogo {
+    height: 96%;
+}
+.bgcon {
+    background: cover;
+    width: 100%;
+    
+}
+.redbg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(139, 12, 12, 0.6);
+    width: 80%;
+    height: 42em;
+    
+}
+.maintext {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vw, 10vh;
+}
+.h1con {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+.buttoncon {
+    display: flex;
+    justify-content: center;
+    column-gap: 15%;
+}
+button {
+    height: 3em;
+    width: 10em;
+    border-radius: 100px;
+    font-family: 'Anek Gujarati';
+    font-weight: bolder;
+    font-size: 140%;
+}
+#registerbutton {
+    border: none;
+    background-color: rgb(169, 20, 20);
+    color: white;
+}
+#loginbutton {
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
